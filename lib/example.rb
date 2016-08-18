@@ -4,7 +4,7 @@ class RSpecGreeter
   @@class_property = "I'm a class property"
 
   def greet
-    binding.pry
+    #binding.pry #uncomment to debug this method
     @instance_property = "I'm an instance_property"
     pubs
     privs
